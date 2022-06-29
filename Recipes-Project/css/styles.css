@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    height: 100vh;
+    padding:  0 17.5%;
+}
+
+
+h1 {
+    color: palevioletred;
+    text-align: center;
+}
+
+p {
+    font-weight: 800;
+    text-align: center;
+}
+img {
+    height: 225px;
+    width: 225px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 250px;
+}
+
+.recipe-card {
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.recipe-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+/* Header and Footer */
+header {
+    border-bottom: solid 2px grey;
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    border-top: solid 2px grey;
+    word-wrap:break-word;
+}
+footer p {
+    text-align: center;
+}
